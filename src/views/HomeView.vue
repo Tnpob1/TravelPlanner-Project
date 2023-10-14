@@ -125,6 +125,7 @@ import Weather from './WeatherView.vue';
   display: flex;
   justify-content: center;
   justify-items: center;
+  margin-bottom: 10px;
 }
  
  /* Caption text */
