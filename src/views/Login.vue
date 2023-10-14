@@ -206,6 +206,7 @@ export default {
   border-radius: 5px;
   box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
   max-height: 100%;
+  margin-top: 30px;
 }
 .wrapper .title-text{
   display: flex;
@@ -251,7 +252,7 @@ export default {
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  background-image: linear-gradient(to right, #CC2E5D, #FF5858);
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 input[type="radio"]{
@@ -323,7 +324,7 @@ form .field input:focus::placeholder{
 }
 .form-inner form .pass-link a,
 .form-inner form .signup-link a{
-  color: #fa4299;
+  color: #FF5858;
   text-decoration: none;
 }
 .form-inner form .pass-link a:hover,
@@ -342,7 +343,7 @@ form .btn .btn-layer{
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(right, #a445b2, #fa4299, #a445b2, #fa4299);
+  background-image: linear-gradient(to right, #CC2E5D, #FF5858);
   border-radius: 5px;
   transition: all 0.4s ease;;
 }
