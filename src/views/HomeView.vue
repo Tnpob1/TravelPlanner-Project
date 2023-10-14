@@ -71,7 +71,7 @@ import Weather from './WeatherView.vue';
   </div> <br> <br>
 
 
-  <div>
+  <div>   
     <h2>ก่อนจะไปเที่ยว มาเช็คสภาพอากาศกันก่อน</h2>
     <Weather />
   </div>
@@ -128,7 +128,6 @@ import Weather from './WeatherView.vue';
   margin-bottom: 10px;
 }
  
- /* Caption text */
  .text {
    color: #f2f2f2;
    font-size: 15px;
@@ -139,7 +138,7 @@ import Weather from './WeatherView.vue';
    text-align: center;
  }
  
- /* Number text (1/3 etc) */
+
  .numbertext {
    color: #ffffff;
    font-size: 20px;
@@ -148,7 +147,7 @@ import Weather from './WeatherView.vue';
    top: 0;
  }
  
- /* The dots/bullets/indicators */
+
  .dot {
    height: 15px;
    width: 15px;
@@ -164,7 +163,6 @@ import Weather from './WeatherView.vue';
  }
 
 
- /* Fading animation */
  .fade {
    animation-name: fade;
    animation-duration: 1.5s;
@@ -180,7 +178,6 @@ import Weather from './WeatherView.vue';
    height: 620px;
  }
 
- /* ปรับขนาดของรูปภาพเมื่อหน้าจอมีความกว้างต่ำกว่า 768px (ไอแพต) */
 @media (max-width: 768px) {
   img {
     width: 800px;
@@ -197,7 +194,6 @@ import Weather from './WeatherView.vue';
   }
 }
 
-/* ปรับขนาดของรูปภาพเมื่อหน้าจอมีความกว้างต่ำกว่า 576px (มือถือ) */
 @media (max-width: 576px) {
   img {
       width: 900px;

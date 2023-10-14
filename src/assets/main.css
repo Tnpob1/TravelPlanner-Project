@@ -15,18 +15,15 @@ body {
 
 
 #app {
-  margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
 }
 
-a,
-.green {
+a{
   text-decoration: none;
   color: rgb(255, 31, 79);
   transition: 0.4s;
   font-weight: 400;
-  margin: 0px 66px;
+  margin: 0px;
   border-bottom: 2px solid transparent;
   transition: .3s;
   font-size: 18px;
@@ -180,6 +177,7 @@ body {
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
  }
 }
+
 
 .modal-overlay {
  position: absolute;

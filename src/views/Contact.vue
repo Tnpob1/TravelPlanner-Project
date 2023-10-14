@@ -4,7 +4,7 @@
       <ul>
         <li v-for="(people, index) in member" :key="index">
             <p style="display: block; text-align: center;">{{ people.name }}</p>
-            <a :href="people.FB"><img src="../assets/icon/Facebook_Logo.png"></a>
+            <a target="_blank" :href="people.FB"><img src="../assets/icon/Facebook_Logo.png"></a>
             <p></p><br> <br>
         </li>
       </ul>

@@ -96,9 +96,9 @@ export default {
   created() {
     const auth = getAuth();
     onAuthStateChanged(auth, (user) =>{
-      if (user) {
-        this.$router.push("/").catch(() => {});
-      }
+      // if (user) {
+      //   this.$router.push("/").catch(() => {});
+      // }
     });
   },
 
@@ -230,6 +230,8 @@ export default {
   border: 1px solid lightgrey;
   border-radius: 5px;
 }
+
+
 .slide-controls .slide{
   height: 100%;
   width: 100%;
@@ -364,5 +366,6 @@ form .btn input[type="submit"]{
   font-weight: 500;
   cursor: pointer;
 }
+
 
 </style>

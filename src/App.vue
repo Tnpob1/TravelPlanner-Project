@@ -1,10 +1,8 @@
 <template>
-  <div id="app">
   <NavBar />
-
+  <div style="padding: 20px 30px;">
+    <RouterView />
   </div>
-  <RouterView />
-  
 </template>
 
 <script>

@@ -25,6 +25,7 @@
     "vue-chartjs": "^5.2.0",
     "vue-datepicker-ui": "^3.1.1",
     "vue-frappe-chart": "^0.1.10",
+    "vue-horizontal-calendar": "^1.0.0",
     "vue-inline-calendar": "^1.0.0",
     "vue-router": "^4.2.4",
     "vueperslides": "^3.5.1",

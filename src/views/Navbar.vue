@@ -1,16 +1,14 @@
 <template>
      <div class="nav">
-    <div class="nav-iner">
-      <RouterLink to="/"
-        ><div class="logo"><p>Travel<br>Planner</p></div></RouterLink
-      >
+    <div class="nav-inner">
+      <RouterLink class="logo" to="/">Travel Planner</RouterLink>
       <div class="mobile-nav">
-        <RouterLink to="/login"><a class="Log-btn">Login</a></RouterLink>
-        <RouterLink to="/"><a>Home</a></RouterLink>
-        <RouterLink to="/about"><a>About</a></RouterLink>
-        <RouterLink to="/review"><a>Reviews</a></RouterLink>
-        <RouterLink to="/contact"><a>Contact</a></RouterLink>
-        <RouterLink class="b-start" to="/planner"><a>Start</a></RouterLink>
+        <RouterLink class="mb-nav-btn" to="/login">Login</RouterLink>
+        <RouterLink class="mb-nav-btn" to="/">Home</RouterLink>
+        <RouterLink class="mb-nav-btn" to="/about">About</RouterLink>
+        <RouterLink class="mb-nav-btn" to="/review">Reviews</RouterLink>
+        <RouterLink class="mb-nav-btn" to="/contact">Contact</RouterLink>
+        <RouterLink class="mb-nav-btn" to="/planner">Start</RouterLink>
       </div>
       <button class="hamburger">
         <div class="bar"></div>
@@ -72,39 +70,34 @@ export default {
 .nav {
   position: sticky;
   z-index: 90;
-}
-
-.nav .nav-iner {
-  position: fixed;
   left: 0;
   top: 0;
+  width: 100%;
+}
+.nav-inner {
   height: 100px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  padding: 0 16px;
+
   background-color: white;
   color: rgb(255, 0, 0);
-  padding: 40px 0px;
   box-shadow: 0px 0.4px 7.5px rgb(121, 121, 121);
-
+  border: solid red;
 }
 
-.nav-iner .links RouterLink {
-  font-weight: 400;
-  font-size: 14px;
-  color: black;
-}
 
 .links {
   padding: 5px;
   margin-right: 40px;
-}
-.nav-iner .links RouterLink:hover {
-  border-color: black;
+  border: solid red;
+  display: flex;
+  gap: 170px;
 }
 
-.nav .logo {
+.logo {
   position: relative;
   font-weight: 700;
   font-size: 2em;
@@ -112,21 +105,8 @@ export default {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-}
-.b-start {
-  border: 6px solid transparent;
-  border-image: linear-gradient(to right, #cc2e5d, #ff5858);
-  border-image-slice: 1;
-  border-radius: 20px;
-  padding: 6px;
-  width: 100px;
-  text-align: center;
-  margin-right: 10px;
-}
-
-.Log-btn {
-  background: linear-gradient(to right, #cc2e5d, #ff5858);
-  color: white;
+    border: solid red;
+  
 }
 
 .nav-btn {
@@ -135,7 +115,6 @@ export default {
   border: none;
   background: none;
   cursor: pointer;
-  margin-right: -50px;
   width: 100px;
 
   display: inline-block;
@@ -157,10 +136,9 @@ export default {
 }
 
 .s-l-btn {
-  padding-left: -100px;
   display: flex;
-  margin-right: 90px;
-  margin-left: -90px;
+  gap: 20px;
+
 }
 
 /* hamburger */
@@ -220,7 +198,7 @@ export default {
   left: 0;
 }
 
-.mobile-nav a {
+.mb-nav-btn {
   width: 100%;
   max-width: 200px;
   margin: 0 auto 20px;
@@ -231,6 +209,7 @@ export default {
   background-color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 10px;
+  padding: 15px;
 }
 
 @media (min-width: 1400px) {
