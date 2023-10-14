@@ -59,7 +59,7 @@ import Weather from './WeatherView.vue';
           <br>
           <br>
           <div class="circle-container" style="display: grid; justify-content: space-around;">
-            <a href="https://travel.trueid.net/detail/DerKpM90N71"><img src="../assets/image/trueID.jpg" alt="สถานที่เที่ยว" class="circle-image"></a>
+            <a href="https://travel.trueid.net/detail/DerKpM90N71"><img src="../assets/image/bangkok.jpg" alt="สถานที่เที่ยว" class="circle-image"></a>
             <a href="https://www.wongnai.com/trips/best-thailand-attraction"><img src="../assets/image/Wongnai.jpg" alt="สถานที่เที่ยว" class="circle-image"></a>
             <a href="https://www.tpartnerluggage.com/content/7119/10-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%83%E0%B8%99%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81">
               <img src="../assets/image/Tpartner.jpg" alt="สถานที่เที่ยว" class="circle-image">
