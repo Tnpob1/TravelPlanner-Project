@@ -23,7 +23,7 @@ body {
 a,
 .green {
   text-decoration: none;
-  color: red;
+  color: rgb(255, 31, 79);
   transition: 0.4s;
   font-weight: 400;
   margin: 0px 66px;

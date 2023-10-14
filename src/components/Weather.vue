@@ -67,12 +67,6 @@ export default {
         
 
         <DaysWeather :cityname="cityname"/>
-
-        <div id="div_Form" class="d-flex m-3 justify-content-center">
-            <form action="">
-                <input type="button" value="Change Location" class="btn change-btn btn-primary">
-            </form>
-        </div>
     </div>
     </div>
 
@@ -88,30 +82,5 @@ export default {
   align-items: center; 
 }
 
-.change-btn{
- appearance: none;
- outline: none;
- border: none;
- background: none;
- cursor: pointer;
- margin-right: 15px;
- margin-bottom: 10px;
- 
- display: inline-block;
- padding: 5px 15px;
- background-image: linear-gradient(to right, #CC2E5D, #FF5858);
- border-radius: 8px;
- 
- color: #FFF;
- font-size: 18px;
- font-weight: 700;
- 
- box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
- transition: 0.4s ease-out;
- 
- &:hover {
-  box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
- }
-}
 </style>
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-    <div class="card">
+    <div class="card"><br>
       <h2>Review ให้แอพของเรา</h2> <br>
       <!-- แบบฟอร์มสำหรับเพิ่มรีวิวใหม่ -->
       <form @submit.prevent="addReview">
@@ -45,7 +45,7 @@
         <button
           style="
             color:  #ffffff; 
-            background-color:  #d8360d;
+            background-color:  #ff3752;
             border: none;
             padding: 1px 1px;
             border-radius: 4px;
@@ -108,6 +108,9 @@ display: block;
 text-align: center;
 align-items: center;
 }
+ p{
+  color: rgb(255, 31, 79);
+}
 
 form {
 background-color: #f7f7f7;
@@ -116,7 +119,7 @@ border-radius: 4px;
 }
 
 .buttonb {
-background-color: #007bff;
+background-color: #ff2a5f;
 color: #fff;
 border: none;
 padding: 8px 16px;
@@ -125,7 +128,7 @@ cursor: pointer;
 }
 
 button:hover {
-background-color: #0056b3;
+background-color: #ff738a;
 }
 
 input[type="number"] {
@@ -133,5 +136,9 @@ input[type="number"] {
   color: #fff;
   border: none;
   padding: 4px;
+}
+
+.comments{
+  border: solid #ff2d5b;
 }
 </style>
