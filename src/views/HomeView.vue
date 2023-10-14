@@ -9,7 +9,7 @@ import Weather from './WeatherView.vue';
      <div>
        <div class="mySlides slide">
    <div class="numbertext">ภูเก็ต</div>
-   <img src="../assets/image/Phuket.jpg" style="width:100%">
+   <img src="src\assets\image\phuket.jpg" style="width:100%">
    </div>
    <div class="text"></div>
  </div>
