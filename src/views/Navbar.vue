@@ -21,7 +21,8 @@
       </div>
       <div class="s-l-btn">
         <RouterLink class="nav-btn" to="/planner">Start</RouterLink>
-        <RouterLink class="nav-btn" to="/login">Login</RouterLink>
+        <button @click="logout" class="nav-btn" v-if="isauth" >Logout</button>
+        <RouterLink class="nav-btn" v-else to="/login">Login</RouterLink>
       </div>
     </div>
     
@@ -39,6 +40,7 @@ export default {
   data() {
     return {
       showMenu: false,
+      isauth:true
     };
   },
   methods: {
@@ -57,7 +59,9 @@ export default {
     const auth = getAuth();
     onAuthStateChanged(auth, (user) =>{
       if (user) {
-        this.$router.push("/").catch(() => {});
+        this.isauth = true
+      }else{
+        this.isauth = false
       }
     });
   },
@@ -91,7 +95,6 @@ export default {
 .links {
   padding: 5px;
   margin-right: 40px;
-  border: solid red;
   display: flex;
   gap: 170px;
 }
