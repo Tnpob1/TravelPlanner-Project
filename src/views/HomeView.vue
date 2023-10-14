@@ -9,7 +9,7 @@ import Weather from './WeatherView.vue';
      <div>
        <div class="mySlides slide">
    <div class="numbertext">ภูเก็ต</div>
-   <img src="src\assets\image\phuket.jpg" style="width:100%">
+   <img src="../assets/image/bangkok.jpg" style="width:100%">
    </div>
    <div class="text"></div>
  </div>
@@ -140,8 +140,8 @@ import Weather from './WeatherView.vue';
  
  /* Number text (1/3 etc) */
  .numbertext {
-   color: #f2f2f2;
-   font-size: 12px;
+   color: #ffffff;
+   font-size: 20px;
    padding: 8px 12px;
    position: absolute;
    top: 0;
@@ -159,7 +159,7 @@ import Weather from './WeatherView.vue';
  }
  
  .active {
-   background-color: #717171;
+   background-color: #ff3838;
  }
 
 
