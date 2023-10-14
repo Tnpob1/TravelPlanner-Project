@@ -85,7 +85,6 @@ export default {
   background-color: white;
   color: rgb(255, 0, 0);
   box-shadow: 0px 0.4px 7.5px rgb(121, 121, 121);
-  border: solid red;
 }
 
 
@@ -105,8 +104,6 @@ export default {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    border: solid red;
-  
 }
 
 .nav-btn {

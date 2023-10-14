@@ -46,7 +46,7 @@ export default {
       }
     },
     getAddressFrom(lat, lng) {
-      axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=AIzaSyB2R8Ztc7lK7KOwoaiod6iW_deGLttdGDI`)
+      axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=APIKEY`)
         .then((response) => {
           if (response.data.error_message) {
             console.log(response.data.error_message);
