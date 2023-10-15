@@ -291,7 +291,10 @@ body {
 @media only screen and (max-width: 600px) {
   .display {
     flex-wrap: wrap;
-  }
+  } 
+}
 
-  
+::selection{
+  background: #fa4299;
+  color: #fff;
 }

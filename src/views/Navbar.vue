@@ -3,7 +3,8 @@
     <div class="nav-inner">
       <RouterLink class="logo" to="/">Travel Planner</RouterLink>
       <div class="mobile-nav">
-        <RouterLink class="mb-nav-btn" to="/login">Login</RouterLink>
+        <button @click="logout" class="mb-nav-btn" v-if="isauth" >Logout</button>
+        <RouterLink class="mb-nav-btn" v-else to="/login">Login</RouterLink>
         <RouterLink class="mb-nav-btn" to="/">Home</RouterLink>
         <RouterLink class="mb-nav-btn" to="/about">About</RouterLink>
         <RouterLink class="mb-nav-btn" to="/review">Reviews</RouterLink>

@@ -14,6 +14,8 @@ import 'v-calendar/style.css';
 import Chart from "vue-frappe-chart"
 
 
+
+
 const app = createApp(App)
 
 app.use(createPinia())
