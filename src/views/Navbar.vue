@@ -74,7 +74,7 @@ export default {
 <style scoped>
 .nav {
   position: sticky;
-  z-index: 999;
+  z-index: 90;
   left: 0;
   top: 0;
   width: 100%;
