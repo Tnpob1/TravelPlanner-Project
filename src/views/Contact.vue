@@ -3,7 +3,8 @@
       <h1>Contact group member</h1> <br>
       <ul>
         <li v-for="(people, index) in member" :key="index">
-            <p style="display: block; text-align: center;">{{ people.name }}</p>
+            <!-- <img class="people-img" :src="people.img" alt=""/> -->
+            <p class="people-name" style="display: block; text-align: center;">{{ people.name }}</p>
             <a target="_blank" :href="people.FB"><img src="../assets/icon/Facebook_Logo.png"></a>
             <p></p><br> <br>
         </li>
@@ -16,7 +17,7 @@
     data() {
       return {
         member: [
-          {
+          { 
             name: "นาย คฑาทอง ธรรมวรากรกุล 6504101308",
             FB: "https://www.facebook.com/khatatong.thamwarakornkul",
           },
@@ -52,7 +53,18 @@ display: block;
 text-align: center;
 }
 img{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;  
 }
+
+.people-img{
+  height: 250px; 
+  width: 100%; 
+}
+
+.people-name{
+  padding-right: 50px;
+  width: 305px;
+}
+  
 </style>

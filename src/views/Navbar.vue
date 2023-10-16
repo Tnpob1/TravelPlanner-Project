@@ -74,13 +74,13 @@ export default {
 <style scoped>
 .nav {
   position: sticky;
-  z-index: 90;
+  z-index: 999;
   left: 0;
   top: 0;
   width: 100%;
 }
 .nav-inner {
-  height: 100px;
+  height: 90px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -233,6 +233,10 @@ export default {
   }
   .s-l-btn {
     display: none;
+  }
+  .mobile-nav {
+    height: 100%;
+    max-height: 1000px;
   }
 }
 </style>
